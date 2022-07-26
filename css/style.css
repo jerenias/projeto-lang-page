@@ -1,0 +1,50 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100vh;
+  width: 1200px;
+}
+header {
+  margin: auto;
+  width: 1200px;
+  height: 80px;
+  background-image: linear-gradient(45deg, rgb(43, 41, 41), rgb(110, 86, 4) );
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: fixed;
+
+}
+img{
+  width: 300px;
+  margin: 0;
+  padding: 0;
+}
+#seg-ft {
+  width: 100px;
+}
+#secundaria {
+  width: 100%;
+  padding: 30px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+ 
+  display: inline-block;
+  text-align: center;
+  border: 2px solid black;
+  width: 140px;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+li:hover{
+  cursor: pointer;
+  background-color: rgb(202, 40, 252) ;
+}
+
